@@ -34,7 +34,9 @@ and I am 3 years old.
 Woof. I am a dog. My name is Vilma
 and I am 3 years old.
 ```
-Why? because static will share the same state to all the instances. at the end, the age variable was set to 3 and it results in making all the instances have the same value which is 3. So, static field means it belongs to the class
+- Why? 
+
+because static will share the same state to all the instances. at the end, the age variable was set to 3 and it results in making all the instances have the same value which is 3. So, static field means it belongs to the class
 
 -  It may happen that you get warnings from the compiler that you should access the variable age via Animal.age, but it should be possible to run the program anyway. Otherwise, change the references to age into Animal.age.
 
